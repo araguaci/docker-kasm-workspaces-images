@@ -1,10 +1,10 @@
 ARG BASE_TAG="develop"
-ARG BASE_IMAGE="core-alpine-317"
+ARG BASE_IMAGE="core-alpine-321"
 FROM kasmweb/$BASE_IMAGE:$BASE_TAG
 
 USER root
 
-ENV DISTRO=alpine317
+ENV DISTRO=alpine321
 ENV HOME /home/kasm-default-profile
 ENV STARTUPDIR /dockerstartup
 WORKDIR $HOME
